@@ -28,5 +28,7 @@ jobs:
     - name: Archive flake8 coverage results
       uses: actions/upload-artifact@v2
       with:
+        os: ubuntu-latest
+        python-version: 3.9
         name: flake8-coverage-report
         path: reports/flake8/
