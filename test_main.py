@@ -9,7 +9,7 @@ def test_suma():
 
 def test_suma_exception():
     with pytest.raises(TypeError):
-        suma(1.1, 1)
+        suma("asdfasdfa", 1)
 
 
 def test_resta():
